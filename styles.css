@@ -20,6 +20,21 @@ body {
     padding-bottom: 40px;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header-image {
+    flex: 1;
+    text-align: right;
+}
+
 /* Header Styles */
 header {
     text-align: center;
